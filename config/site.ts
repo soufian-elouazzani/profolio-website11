@@ -1,13 +1,13 @@
 export const siteConfig = {
-  name: "Naman Barkiya - Applied AI Engineer",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Soufian Elouazzani - DevOps Engineer",
+  authorName: "Soufian Elouazzani",
+  username: "soufian",
   description:
-    "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
+    "Soufian Elouazzani - DevOps Engineer working at the intersection of Development, IT operations, scalable software systems and security. Explore my projects, experience, and contributions in software development.",
   url: "https://nbarkiya.xyz",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    twitter: "https://x.com/soufian",
+    github: "https://github.com/soufian-elouazzani",
     templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
   },
   ogImage:
@@ -17,9 +17,9 @@ export const siteConfig = {
   logoIcon:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
-    "Naman Barkiya",
-    "Applied AI Engineer",
-    "AI Engineer",
+    "Soufian Elouazzani",
+    "DevOps Engineer",
+    "Cyber security Engineer",
     "Software Engineer",
     "Full Stack Developer",
     "Machine Learning",

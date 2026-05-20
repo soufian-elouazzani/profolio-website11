@@ -18,9 +18,9 @@ export const experiences: ExperienceInterface[] = [
   {
     id: "ubs",
     position: "Software Development Engineer",
-    company: "UBS",
-    location: "Mumbai, India",
-    startDate: new Date("2024-08-01"),
+    company: "BASSETTI",
+    location: "Grenoble, France",
+    startDate: new Date("2026-04-07"),
     endDate: "Present",
     description: [
       "Shipped production features within the first month for a trader-facing P&L dashboard used by global stakeholders.",
