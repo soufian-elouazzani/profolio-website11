@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Naman Barkiya | Applied AI Engineer",
-    short_name: "Naman Barkiya",
+    name: "Soufian Elouazzani | DevOps Engineer",
+    short_name: "Soufian Elouazzani",
     description:
-      "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems.",
+      "Soufian Elouazzani - DevOps Engineer working at the intersection of automated CI/CD pipelines, Infrastructure as Code, scalable systems, and cloud architecture.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
@@ -25,11 +25,11 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     categories: [
       "portfolio",
-      "ai",
+      "devops",
+      "ci-cd",
+      "cloud infrastructure",
+      "automation",
       "software engineering",
-      "machine learning",
-      "developer",
-      "web development",
     ],
     lang: "en",
     dir: "ltr",

@@ -60,6 +60,11 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
+  | "GitLab"
+  | "GitHub Actions"
+  | "Terraform"
+  | "Ansible"
+  | "Linux"
   | "Framer Motion";
 
 export type ValidCategory =

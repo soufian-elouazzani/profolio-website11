@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { ExternalLink, Github, Heart } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import { siteConfig } from "@/config/site";
 
 export default function GithubRedirectCard() {
   const [isHovered, setIsHovered] = useState(false);
@@ -34,7 +35,7 @@ export default function GithubRedirectCard() {
       </CardContent>
       <CardFooter className="px-8 pb-8 pt-0">
         <Link
-          href={"https://github.com/namanbarkiya/minimal-next-portfolio"}
+          href={siteConfig.links.templateRepo}
           target="_blank"
           className={cn(
             buttonVariants({ variant: "outline" }),

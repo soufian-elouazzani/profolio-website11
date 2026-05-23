@@ -9,152 +9,102 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
+    name: "AWS",
+    description:
+      "Design, deploy, and manage highly available, scalable, and secure cloud infrastructure and services.",
+    rating: 5,
+    icon: Icons.amazonaws,
+  },
+  {
+    name: "Terraform",
+    description:
+      "Define, provision, and version infrastructure safely and efficiently using declarative config files (IaC).",
+    rating: 5,
+    icon: Icons.terraform,
+  },
+  {
+    name: "Ansible",
+    description:
+      "Automate system configuration, software deployment, and configuration management at scale.",
+    rating: 5,
+    icon: Icons.ansible,
+  },
+  {
+    name: "Jenkins",
+    description:
+      "Orchestrate complex automated build, test, and release pipelines to enable continuous integration.",
+    rating: 5,
+    icon: Icons.jenkins,
+  },
+  {
+    name: "GitLab",
+    description:
+      "Build end-to-end CI/CD pipelines, container registries, and manage code repositories natively.",
+    rating: 5,
+    icon: Icons.gitlab,
+  },
+  {
+    name: "GitHub Actions",
+    description:
+      "Automate workflows, tests, and deployments directly within the GitHub ecosystem.",
+    rating: 5,
+    icon: Icons.githubactions,
+  },
+  {
+    name: "Docker",
+    description:
+      "Package applications into standardized, lightweight containers for consistency across environments.",
+    rating: 5,
+    icon: Icons.docker,
+  },
+  {
+    name: "Kubernetes",
+    description:
+      "Orchestrate, automate scaling, and manage containerized applications in production clusters.",
+    rating: 4,
+    icon: Icons.kubernetes,
+  },
+  {
+    name: "Linux",
+    description:
+      "Automate administration tasks, write bash scripts, and manage secure server environments.",
+    rating: 5,
+    icon: Icons.linux,
+  },
+  {
     name: "Next.js",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 5,
+      "Develop performant, production-ready React web applications with routing and server-side rendering.",
+    rating: 4,
     icon: Icons.nextjs,
   },
   {
     name: "React",
     description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 5,
+      "Build interactive, component-driven user interfaces for web applications.",
+    rating: 4,
     icon: Icons.react,
-  },
-  {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
   },
   {
     name: "Typescript",
     description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
+      "Write type-safe, maintainable, and robust code for application and automation logic.",
+    rating: 4,
     icon: Icons.typescript,
   },
   {
     name: "Javascript",
     description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
+      "Create dynamic experiences and write scripts for web and server environments.",
+    rating: 4,
     icon: Icons.javascript,
   },
   {
-    name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
-    icon: Icons.html5,
-  },
-  {
-    name: "CSS 3",
-    description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
-    icon: Icons.css3,
-  },
-  {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
     name: "Tailwind CSS",
     description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
-    icon: Icons.tailwindcss,
-  },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+      "Design beautiful, modern, and responsive user interfaces with utility-first styling.",
     rating: 4,
-    icon: Icons.netlify,
+    icon: Icons.tailwindcss,
   },
 ];
 
