@@ -7,39 +7,86 @@ export interface contributionsInterface {
 
 export const contributionsUnsorted: contributionsInterface[] = [
   {
-    repo: "minimal-next-portfolio",
+    repo: "meshnetwork",
     contibutionDescription:
-      "Open-source Next.js portfolio template. Trusted and forked by developers worldwide (130+ GitHub stars).",
-    repoOwner: "namanbarkiya",
-    link: "https://github.com/namanbarkiya/minimal-next-portfolio",
+      "Meshtastic monitoring suite with SPLAT! coverage calculation, redundancy analysis, and Docker microservices.",
+    repoOwner: "soufian-elouazzani",
+    link: "https://github.com/soufian-elouazzani/meshnetwork",
   },
   {
-    repo: "niya-saas-template",
+    repo: "meshnetwork-docs",
     contibutionDescription:
-      "Modern Next.js SaaS template. Production-ready starter for devs and AI startups (30+ GitHub stars).",
-    repoOwner: "namanbarkiya",
-    link: "https://github.com/namanbarkiya/niya-saas-template",
+      "Architecture documentation, diagrams, and screenshots for the Meshtastic network monitoring project.",
+    repoOwner: "soufian-elouazzani",
+    link: "https://github.com/soufian-elouazzani/meshnetwork-docs",
   },
   {
-    repo: "autogen",
+    repo: "formal-while-language",
     contibutionDescription:
-      "Improved the gallery component to showcase the community work.",
-    repoOwner: "Microsoft",
-    link: "https://github.com/microsoft/autogen/pull/1445",
+      "OCaml parsers and executors for WHILEb/WHILEb-- with Rocq proofs for natural and operational semantics.",
+    repoOwner: "soufian-elouazzani",
+    link: "https://github.com/soufian-elouazzani/formal-while-language",
   },
   {
-    repo: "creativecommons",
+    repo: "http-server",
     contibutionDescription:
-      "Closed Issue: Fixed navbar issue on the main website of creative common.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/738",
+      "Custom HTTP server implemented in Java — request parsing, routing, and responses without frameworks.",
+    repoOwner: "soufian-elouazzani",
+    link: "https://github.com/soufian-elouazzani/http-server",
   },
   {
-    repo: "creativecommons",
+    repo: "java-prod-cons",
     contibutionDescription:
-      "Added section for 'Other Opportunities' on main page.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/719",
+      "Producer–consumer concurrency pattern in Java with thread-safe buffers and synchronized workers.",
+    repoOwner: "soufian-elouazzani",
+    link: "https://github.com/soufian-elouazzani/java-prod-cons",
+  },
+  {
+    repo: "AWS Academy Cloud Foundations",
+    contibutionDescription:
+      "Certification covering core AWS services, cloud architecture, and security fundamentals.",
+    repoOwner: "Certification",
+    link: "https://github.com/soufian-elouazzani",
+  },
+  {
+    repo: "Arduino Fundamentals",
+    contibutionDescription:
+      "Electronics certification — circuits, sensors, and embedded fundamentals with Arduino.",
+    repoOwner: "Certification",
+    link: "https://github.com/soufian-elouazzani",
+  },
+  {
+    repo: "National Web Development Competition",
+    contibutionDescription: "2nd Place — national web development competition.",
+    repoOwner: "Competition",
+    link: "https://github.com/soufian-elouazzani",
+  },
+  {
+    repo: "Orange Digital Center CP",
+    contibutionDescription: "4th Place — Orange Digital Center competitive programming.",
+    repoOwner: "Competition",
+    link: "https://github.com/soufian-elouazzani",
+  },
+  {
+    repo: "Morocco Blockchain Days",
+    contibutionDescription:
+      "Organizing Committee — Morocco Blockchain Days (INPT 2025).",
+    repoOwner: "Leadership",
+    link: "https://github.com/soufian-elouazzani",
+  },
+  {
+    repo: "Tangier Port Startup Support",
+    contibutionDescription:
+      "1-month startup support program at Tangier Port.",
+    repoOwner: "Leadership",
+    link: "https://github.com/soufian-elouazzani",
+  },
+  {
+    repo: "National Youth Ministry Program",
+    contibutionDescription:
+      "21-day national program — Volunteering Training Certification.",
+    repoOwner: "Volunteering",
+    link: "https://github.com/soufian-elouazzani",
   },
 ];
 

@@ -8,7 +8,8 @@ export const siteConfig = {
   links: {
     twitter: "https://x.com/soufian-elouazzani",
     github: "https://github.com/soufian-elouazzani",
-    templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
+    /** Repo used for the header star count badge */
+    githubStarRepo: "https://github.com/soufian-elouazzani/meshnetwork",
   },
   ogImage: "/logo.png",
   iconIco: "/favicon.ico",

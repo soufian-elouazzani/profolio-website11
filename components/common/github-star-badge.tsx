@@ -37,11 +37,11 @@ export function GitHubStarBadge({ className }: GitHubStarBadgeProps) {
 
   return (
     <Link
-      href={siteConfig.links.templateRepo}
+      href={siteConfig.links.github}
       target="_blank"
       rel="noreferrer"
-      aria-label={`View template repo on GitHub${
-        stars != null ? ` (${stars.toLocaleString()} stars)` : ""
+      aria-label={`View GitHub profile${
+        stars != null ? ` (${stars.toLocaleString()} stars on meshnetwork)` : ""
       }`}
       className={cn(
         "inline-flex h-8 items-center gap-2 rounded-full border border-border bg-background/60 px-3 text-xs text-muted-foreground backdrop-blur transition-colors hover:bg-accent hover:text-foreground",
@@ -50,7 +50,7 @@ export function GitHubStarBadge({ className }: GitHubStarBadgeProps) {
     >
       <span className="hidden items-center gap-2 sm:inline-flex">
         <Icons.gitHub className="h-3.5 w-3.5" />
-        <span className="font-medium">Template</span>
+        <span className="font-medium">GitHub</span>
         <span className="text-muted-foreground/60">·</span>
       </span>
       <Icons.star className="h-3.5 w-3.5" />

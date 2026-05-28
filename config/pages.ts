@@ -48,11 +48,12 @@ export const pagesConfig: PagesConfig = {
   },
   contributions: {
     title: "Contributions",
-    description: "Open-source contributions and community involvement.",
+    description:
+      "Open-source repositories, certifications, competitions, and community involvement.",
     metadata: {
       title: "Contributions",
       description:
-        "Soufian Elouazzani's open-source contributions and community involvement.",
+        "Soufian Elouazzani's repositories, certifications, achievements, and community involvement.",
     },
   },
   resume: {
@@ -66,11 +67,11 @@ export const pagesConfig: PagesConfig = {
   blogs: {
     title: "Blogs",
     description:
-      "Thoughts on cloud architecture, CI/CD pipelines, and DevOps best practices.",
+      "Deep dives into distributed systems, formal methods, DevSecOps, and hands-on engineering projects.",
     metadata: {
       title: "Blogs",
       description:
-        "Soufian Elouazzani's blog — thoughts on DevOps, cloud architecture, and automation.",
+        "Soufian Elouazzani's project write-ups — mesh networks, DevSecOps, P2P systems, and more.",
     },
   },
   experience: {
