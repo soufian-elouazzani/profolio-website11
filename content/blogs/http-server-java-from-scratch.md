@@ -3,7 +3,7 @@ title: "HTTP Server in Java — From Scratch"
 date: "2024-04-01"
 description: "A custom HTTP server in Java: TCP sockets, request parsing, routing, and responses without servlet containers."
 tags: ["Java", "Networking", "HTTP"]
-coverImage: "/logo.png"
+coverImage: "https://raw.githubusercontent.com/soufian-elouazzani/http-server/refs/heads/main/docs/images/1_H9X3ox7LviQoxLBQcfx1CQ.png"
 ---
 
 **Repo:** [github.com/soufian-elouazzani/http-server](https://github.com/soufian-elouazzani/http-server)

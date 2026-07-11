@@ -3,7 +3,7 @@ title: "DevSecOps Pipeline with GitLab, Kubernetes, and Argo CD"
 date: "2025-05-15"
 description: "Academic project: end-to-end GitLab CI/CD with Kubernetes, Argo CD GitOps, and SAST/SCA/DAST security gates."
 tags: ["DevSecOps", "GitLab", "Kubernetes", "Argo CD", "CI/CD"]
-coverImage: "/logo.png"
+coverImage: "https://raw.githubusercontent.com/soufian-elouazzani/http-server/refs/heads/main/docs/images/1_H9X3ox7LviQoxLBQcfx1CQ.png"
 featured: true
 ---
 

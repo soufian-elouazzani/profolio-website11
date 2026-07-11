@@ -3,7 +3,7 @@ title: "WHILE Language — OCaml Interpreters and Rocq Proofs"
 date: "2025-01-15"
 description: "Formal methods: WHILEb/WHILEb-- parsers in OCaml, natural semantics, and machine-checked proofs in Rocq (Coq)."
 tags: ["OCaml", "Rocq", "Formal Methods", "Semantics"]
-coverImage: "/logo.png"
+coverImage: "https://raw.githubusercontent.com/soufian-elouazzani/formal-while-language/refs/heads/main/docs/images/programmation-fonctionnelle.jpg"
 ---
 
 **Repo:** [github.com/soufian-elouazzani/formal-while-language](https://github.com/soufian-elouazzani/formal-while-language)

@@ -3,7 +3,7 @@ title: "Producer–Consumer Pattern in Java"
 date: "2023-12-01"
 description: "Classic producer–consumer concurrency with thread-safe buffers and coordinated worker threads in Java."
 tags: ["Java", "Concurrency", "Multithreading"]
-coverImage: "/logo.png"
+coverImage: "https://raw.githubusercontent.com/soufian-elouazzani/http-server/refs/heads/main/docs/images/1_H9X3ox7LviQoxLBQcfx1CQ.png"
 ---
 
 **Repo:** [github.com/soufian-elouazzani/java-prod-cons](https://github.com/soufian-elouazzani/java-prod-cons)

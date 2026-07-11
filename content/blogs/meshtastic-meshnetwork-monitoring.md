@@ -3,7 +3,7 @@ title: "Building a Meshtastic Network Monitoring Suite"
 date: "2025-06-01"
 description: "Extending Meshtastic MQTT Explorer with SPLAT! coverage calculation, redundancy analysis, and Dockerized microservices."
 tags: ["Python", "Docker", "Meshtastic", "SPLAT", "Vue.js"]
-coverImage: "/logo.png"
+coverImage: "https://raw.githubusercontent.com/soufian-elouazzani/meshnetwork-docs/main/Screenshots/augmented_diagram.png"
 featured: true
 ---
 
