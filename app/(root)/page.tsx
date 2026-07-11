@@ -103,7 +103,7 @@ export default function IndexPage() {
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Engineering student at INPT Rabat (Systems & Cybersecurity). I design, build, and deploy full systems — from React and FastAPI apps to Kubernetes on bare metal with Terraform, Ansible, and automated CI/CD.
+              Engineering student at polytech grenoble (Systems & Cybersecurity). I design, build, and deploy full systems — from React and FastAPI apps to Kubernetes on bare metal with Terraform, Ansible, and automated CI/CD.
             </p>
           </div>
 
