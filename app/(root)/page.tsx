@@ -40,7 +40,7 @@ export default function IndexPage() {
     name: siteConfig.authorName,
     url: siteConfig.url,
     image: siteConfig.ogImage,
-    jobTitle: "DevOps Engineer",
+    jobTitle: "DevOps / Software Engineer",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
@@ -99,11 +99,11 @@ export default function IndexPage() {
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            DevOps Engineer
+            DevOps / Software Engineer
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              DevOps Engineer specializing in automated CI/CD pipelines, Infrastructure as Code, scalable systems, and cloud architecture.
+              Engineering student at INPT Rabat (Systems & Cybersecurity). I design, build, and deploy full systems — from React and FastAPI apps to Kubernetes on bare metal with Terraform, Ansible, and automated CI/CD.
             </p>
           </div>
 

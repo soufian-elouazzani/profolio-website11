@@ -1,15 +1,15 @@
 export const siteConfig = {
-  name: "Soufian Elouazzani - DevOps Engineer",
+  name: "Soufian Elouazzani - DevOps / Software Engineer",
   authorName: "Soufian Elouazzani",
   username: "soufian-elouazzani",
   description:
-    "Soufian Elouazzani - DevOps Engineer working at the intersection of automated CI/CD pipelines, Infrastructure as Code, scalable systems, and cloud architecture. Explore my projects, experience, and contributions.",
+    "Soufian Elouazzani — DevOps & Software Engineer at INPT Rabat. I build applications end-to-end: from React and FastAPI services to Docker, Kubernetes, Terraform, and GitHub Actions CI/CD. Explore my projects, internships, and open-source work.",
   url: "https://profolio-website11.vercel.app",
   links: {
     twitter: "https://x.com/soufian-elouazzani",
     github: "https://github.com/soufian-elouazzani",
     /** Repo used for the header star count badge */
-    githubStarRepo: "https://github.com/soufian-elouazzani/meshnetwork",
+    githubStarRepo: "https://github.com/soufian-elouazzani/chat-app-infra",
   },
   ogImage: "/logo.png",
   iconIco: "/favicon.ico",

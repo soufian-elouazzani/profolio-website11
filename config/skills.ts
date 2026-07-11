@@ -9,102 +9,137 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "AWS",
-    description:
-      "Design, deploy, and manage highly available, scalable, and secure cloud infrastructure and services.",
-    rating: 5,
-    icon: Icons.amazonaws,
-  },
-  {
-    name: "Terraform",
-    description:
-      "Define, provision, and version infrastructure safely and efficiently using declarative config files (IaC).",
-    rating: 5,
-    icon: Icons.terraform,
-  },
-  {
-    name: "Ansible",
-    description:
-      "Automate system configuration, software deployment, and configuration management at scale.",
-    rating: 5,
-    icon: Icons.ansible,
-  },
-  {
-    name: "Jenkins",
-    description:
-      "Orchestrate complex automated build, test, and release pipelines to enable continuous integration.",
-    rating: 5,
-    icon: Icons.jenkins,
-  },
-  {
-    name: "GitLab",
-    description:
-      "Build end-to-end CI/CD pipelines, container registries, and manage code repositories natively.",
-    rating: 5,
-    icon: Icons.gitlab,
-  },
-  {
-    name: "GitHub Actions",
-    description:
-      "Automate workflows, tests, and deployments directly within the GitHub ecosystem.",
-    rating: 5,
-    icon: Icons.githubactions,
-  },
-  {
     name: "Docker",
     description:
-      "Package applications into standardized, lightweight containers for consistency across environments.",
+      "Containerize services, optimize images for CI jobs, and compose multi-service stacks for local and production-like environments.",
     rating: 5,
     icon: Icons.docker,
   },
   {
     name: "Kubernetes",
     description:
-      "Orchestrate, automate scaling, and manage containerized applications in production clusters.",
+      "Deploy and operate containerized workloads — manifests, ingress, secrets, GPU scheduling, and Kustomize-based multi-service apps.",
     rating: 4,
     icon: Icons.kubernetes,
   },
   {
+    name: "Terraform",
+    description:
+      "Provision infrastructure as code — VMs, clusters, and cloud resources with versioned, repeatable deployments.",
+    rating: 5,
+    icon: Icons.terraform,
+  },
+  {
+    name: "Ansible",
+    description:
+      "Configure servers, install runtimes (NVIDIA toolkit, kubectl), and apply Kubernetes manifests after provisioning.",
+    rating: 4,
+    icon: Icons.ansible,
+  },
+  {
+    name: "Jenkins",
+    description:
+      "Build automated CI jobs — package publishing, Terraform-provisioned agents, and optimized Docker-based pipelines (BASSETTI internship).",
+    rating: 5,
+    icon: Icons.jenkins,
+  },
+  {
+    name: "GitHub Actions",
+    description:
+      "CI/CD for build, test, container push, and Vercel/Kubernetes deploy workflows across multi-repo projects.",
+    rating: 5,
+    icon: Icons.githubactions,
+  },
+  {
+    name: "GitLab",
+    description:
+      "End-to-end CI/CD with SAST/DAST gates, Helm deploys, and GitOps-style delivery to Kubernetes.",
+    rating: 4,
+    icon: Icons.gitlab,
+  },
+  {
+    name: "AWS",
+    description:
+      "Core cloud services — IAM, VPC, EC2, EBS — with AWS Academy Cloud Foundations certification.",
+    rating: 4,
+    icon: Icons.amazonaws,
+  },
+  {
     name: "Linux",
     description:
-      "Automate administration tasks, write bash scripts, and manage secure server environments.",
+      "Server administration, bash scripting, Grid'5000 bare-metal workflows, and secure Linux environments.",
     rating: 5,
     icon: Icons.linux,
   },
   {
-    name: "Next.js",
+    name: "Python",
     description:
-      "Develop performant, production-ready React web applications with routing and server-side rendering.",
+      "FastAPI services, async workers, RabbitMQ consumers, network tooling, and automation scripts.",
+    rating: 5,
+    icon: Icons.python,
+  },
+  {
+    name: "FastAPI",
+    description:
+      "Async API gateways — JWT auth, OpenAPI docs, queue integration, and non-blocking request handling.",
     rating: 4,
-    icon: Icons.nextjs,
+    icon: Icons.fastapi,
   },
   {
     name: "React",
     description:
-      "Build interactive, component-driven user interfaces for web applications.",
+      "SPAs with React 19 — auth flows, polling-based async UX, and production builds behind Nginx.",
     rating: 4,
     icon: Icons.react,
   },
   {
-    name: "Typescript",
+    name: "PostgreSQL",
     description:
-      "Write type-safe, maintainable, and robust code for application and automation logic.",
+      "Relational schemas for users, sessions, and message history; durable persistence alongside Redis caches.",
     rating: 4,
-    icon: Icons.typescript,
+    icon: Icons.postgresql,
+  },
+  {
+    name: "Redis",
+    description:
+      "Session message caches, task status hashes, sorted sets for recent history, and TTL-based eviction.",
+    rating: 4,
+    icon: Icons.redis,
+  },
+  {
+    name: "Java",
+    description:
+      "Low-level systems programming — custom HTTP servers, concurrency patterns, and class loader isolation.",
+    rating: 4,
+    icon: Icons.java,
+  },
+  {
+    name: "Vue.js",
+    description:
+      "Microfrontends with Leaflet maps for real-time geospatial visualization in distributed monitoring systems.",
+    rating: 3,
+    icon: Icons.vuejs,
   },
   {
     name: "Javascript",
     description:
-      "Create dynamic experiences and write scripts for web and server environments.",
+      "Node.js backends, React frontends, and API client layers for full-stack applications.",
     rating: 4,
     icon: Icons.javascript,
   },
   {
-    name: "Tailwind CSS",
+    name: "Typescript",
     description:
-      "Design beautiful, modern, and responsive user interfaces with utility-first styling.",
+      "Type-safe frontend and tooling code for maintainable web applications.",
     rating: 4,
-    icon: Icons.tailwindcss,
+    icon: Icons.typescript,
+  },
+  {
+    name: "Next.js",
+    description:
+      "This portfolio site — React 19, server components, SEO, and Vercel deployment.",
+    rating: 4,
+    icon: Icons.nextjs,
   },
 ];
 
