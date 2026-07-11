@@ -51,7 +51,7 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2025-09-01"),
     endDate: new Date("2026-07-01"),
-    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/chat-app-infra/refs/heads/main/docs/images/AIChatAppTerraform.pnghttps://raw.githubusercontent.com/soufian-elouazzani/chat-app-infra/refs/heads/main/docs/images/k8s-infrastructure_blog-1.jpg",
+    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/chat-app-infra/refs/heads/main/docs/images/k8s-infrastructure_blog-1.jpg",
     pagesInfoArr: [
       {
         title: "Kubernetes workloads",
@@ -266,7 +266,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Java", "Linux", "Git"],
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-04-01"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/http-server/refs/heads/main/docs/images/1_H9X3ox7LviQoxLBQcfx1CQ.png",
     pagesInfoArr: [
       {
         title: "Static & dynamic requests",
@@ -300,7 +300,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Python", "Java", "Linux", "Git"],
     startDate: new Date("2024-02-01"),
     endDate: new Date("2025-01-01"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/formal-while-language/refs/heads/main/docs/images/programmation-fonctionnelle.jpg",
     pagesInfoArr: [
       {
         title: "Syntax, semantics & proofs",
