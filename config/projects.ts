@@ -51,7 +51,7 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2025-09-01"),
     endDate: new Date("2026-07-01"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/chat-app-infra/refs/heads/main/docs/images/AIChatAppTerraform.png",
     pagesInfoArr: [
       {
         title: "Kubernetes workloads",
