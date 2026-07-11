@@ -51,7 +51,7 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2025-09-01"),
     endDate: new Date("2026-07-01"),
-    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/chat-app-infra/refs/heads/main/docs/images/AIChatAppTerraform.png",
+    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/chat-app-infra/refs/heads/main/docs/images/AIChatAppTerraform.pnghttps://raw.githubusercontent.com/soufian-elouazzani/chat-app-infra/refs/heads/main/docs/images/k8s-infrastructure_blog-1.jpg",
     pagesInfoArr: [
       {
         title: "Kubernetes workloads",
@@ -99,7 +99,7 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2025-09-01"),
     endDate: new Date("2026-07-01"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/chat-app-gateway/refs/heads/master/docs/images/1_-8ZrRPNEz7wJwiEXbNrrrg.png",
     pagesInfoArr: [
       {
         title: "Async message flow",
@@ -142,7 +142,7 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2025-09-01"),
     endDate: new Date("2026-07-01"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/chat-app-worker/refs/heads/master/docs/images/1_glKlvp33Gx_GYdK286oy7A.png",
     pagesInfoArr: [
       {
         title: "Worker pipeline",
@@ -183,7 +183,7 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2025-09-01"),
     endDate: new Date("2026-07-01"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/chat-app-frontend/refs/heads/master/docs/images/1_XdcrYecW6uCLwJOOe5048Q.jpg",
     pagesInfoArr: [
       {
         title: "Chat UI",
@@ -226,7 +226,7 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2024-09-01"),
     endDate: new Date("2025-06-01"),
-    companyLogoImg: "/logo.png",
+    companyLogoImg: "https://raw.githubusercontent.com/soufian-elouazzani/meshnetwork-docs/main/Screenshots/augmented_diagram.png",
     pagesInfoArr: [
       {
         title: "Coverage & redundancy",
