@@ -3,13 +3,25 @@ import * as React from "react";
 
 import { buttonVariants } from "@/components/ui/button";
 import CustomTooltip from "@/components/ui/custom-tooltip";
+import { routesConfig } from "@/config/routes";
 import { SocialLinks } from "@/config/socials";
 import { cn } from "@/lib/utils";
 
 export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
     <footer className={cn(className)}>
-      <div className="container flex items-center justify-center gap-8 mt-10 py-10 md:h-24">
+      <nav className="container flex flex-wrap items-center justify-center gap-4 py-6 text-sm text-muted-foreground">
+        {routesConfig.footerNav?.map((item: { title: string; href: string }) => (
+          <Link
+            key={item.href}
+            href={item.href}
+            className="hover:text-foreground hover:underline underline-offset-4"
+          >
+            {item.title}
+          </Link>
+        ))}
+      </nav>
+      <div className="container flex items-center justify-center gap-8 pb-10 md:h-24">
         {SocialLinks.map((item, ind) => (
           <CustomTooltip icon={item.icon} text={item.username} key={ind}>
             <Link

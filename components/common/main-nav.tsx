@@ -1,14 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Norican } from "next/font/google";
 import Link from "next/link";
 import { usePathname, useSelectedLayoutSegment } from "next/navigation";
 import * as React from "react";
 
 import { Icons } from "@/components/common/icons";
 import { MobileNav } from "@/components/common/mobile-nav";
-import { siteConfig } from "@/config/site";
+import { SiteLogo } from "@/components/common/site-logo";
 import { cn } from "@/lib/utils";
 
 interface MainNavProps {
@@ -16,14 +15,6 @@ interface MainNavProps {
   children?: React.ReactNode;
 }
 
-const norican = Norican({
-  weight: ["400"],
-  style: ["normal"],
-  subsets: ["latin"],
-  display: "swap",
-});
-
-// Animation variants for the navigation items
 const navItemVariants = {
   hidden: { opacity: 0, y: -20 },
   visible: (i: number) => ({
@@ -52,12 +43,9 @@ export function MainNav({ items, children }: MainNavProps) {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
+        className="hidden md:block"
       >
-        <Link href="/" className="hidden items-center space-x-2 md:flex">
-          <span className={cn(norican.className, "text-2xl")}>
-            {siteConfig.authorName}
-          </span>
-        </Link>
+        <SiteLogo />
       </motion.div>
       {items?.length ? (
         <nav className="hidden gap-6 md:flex items-center">

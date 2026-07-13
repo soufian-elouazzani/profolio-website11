@@ -11,9 +11,12 @@ interface DescriptionDetailsInterface {
   bullets: string[];
 }
 
+export type ProjectAudience = "client" | "engineering";
+
 export interface ProjectInterface {
   id: string;
   type: ValidExpType;
+  audience?: ProjectAudience;
   companyName: string;
   category: ValidCategory[];
   shortDescription: string;
@@ -324,4 +327,8 @@ export const Projects: ProjectInterface[] = [
   },
 ];
 
-export const featuredProjects = Projects.slice(0, 3);
+export const engineeringProjects = Projects.filter(
+  (p) => (p.audience ?? "engineering") === "engineering"
+);
+
+export const featuredProjects = engineeringProjects.slice(0, 3);

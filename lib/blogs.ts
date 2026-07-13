@@ -81,11 +81,28 @@ export async function getBlogPost(slug: string): Promise<BlogPost> {
   };
 }
 
-/** Returns the featured blogs (marked featured: true), falling back to the latest 3 */
+/** Returns the featured blogs (marked featured: true), preferring client-relevant slugs, falling back to latest 3 */
 export function getFeaturedBlogs(): BlogMeta[] {
   const all = getAllBlogsMeta();
   const featured = all.filter((b) => b.featured);
-  return featured.length > 0 ? featured.slice(0, 3) : all.slice(0, 3);
+  const pool = featured.length > 0 ? featured : all;
+
+  const preferredOrder = [
+    "devsecops-gitlab-argocd-pipeline",
+    "meshtastic-meshnetwork-monitoring",
+    "p2p-securechat-distributed-systems",
+  ];
+
+  const sorted = [...pool].sort((a, b) => {
+    const aIdx = preferredOrder.indexOf(a.slug);
+    const bIdx = preferredOrder.indexOf(b.slug);
+    if (aIdx !== -1 && bIdx !== -1) return aIdx - bIdx;
+    if (aIdx !== -1) return -1;
+    if (bIdx !== -1) return 1;
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
+
+  return sorted.slice(0, 3);
 }
 
 /** Estimates reading time from raw markdown content */

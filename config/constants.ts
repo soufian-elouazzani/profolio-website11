@@ -82,6 +82,7 @@ export type ValidPages =
   | "home"
   | "skills"
   | "projects"
+  | "services"
   | "experience"
   | "contact"
   | "contributions"

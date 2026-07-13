@@ -8,7 +8,6 @@ type PagesConfig = {
       title: string;
       description: string;
     };
-    // featuredDescription: string;
   };
 };
 
@@ -18,32 +17,45 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Soufian Elouazzani's portfolio website.",
+      description: "Soufian Elouazzani — freelance web developer and digital solutions consultant.",
+    },
+  },
+  services: {
+    title: "My Services",
+    description:
+      "Websites and digital solutions for salons, restaurants, shops, and small businesses — from simple brochure sites to e-commerce and AI automation.",
+    metadata: {
+      title: "Services",
+      description:
+        "Soufian Elouazzani's web development and digital solutions services — live demos for barber, restaurant, shop, and AI receptionist.",
     },
   },
   skills: {
     title: "Skills",
-    description: "Key skills that define my professional identity.",
+    description: "Technologies and tools I use to build reliable websites and systems.",
     metadata: {
       title: "Skills",
       description:
-        "Soufian Elouazzani's key skills that define his DevOps identity.",
+        "Soufian Elouazzani's technical skills — web development, DevOps, and full-stack engineering.",
     },
   },
   projects: {
-    title: "Projects",
-    description: "Showcasing impactful projects and technical achievements.",
+    title: "Engineering Projects",
+    description:
+      "Deeper technical work — distributed systems, DevOps pipelines, and full-stack platforms. For recruiters and engineers who want the full story.",
     metadata: {
-      title: "Projects",
-      description: "Soufian Elouazzani's projects in building and orchestrating scalable software systems.",
+      title: "Engineering Projects",
+      description:
+        "Soufian Elouazzani's engineering projects — Kubernetes, FastAPI, formal methods, and distributed systems.",
     },
   },
   contact: {
     title: "Contact",
-    description: "Let's connect and explore collaborations.",
+    description:
+      "Tell me about your business and what you need — a website, online shop, or digital solution. I will get back to you with a clear plan and quote.",
     metadata: {
       title: "Contact",
-      description: "Contact Soufian Elouazzani.",
+      description: "Contact Soufian Elouazzani for web development and digital solutions.",
     },
   },
   contributions: {
@@ -67,16 +79,16 @@ export const pagesConfig: PagesConfig = {
   blogs: {
     title: "Blogs",
     description:
-      "Deep dives into distributed systems, formal methods, DevSecOps, and hands-on engineering projects.",
+      "Practical project write-ups — how I built each system, key decisions, and what I learned along the way.",
     metadata: {
       title: "Blogs",
       description:
-        "Soufian Elouazzani's project write-ups — mesh networks, DevSecOps, P2P systems, and more.",
+        "Soufian Elouazzani's project case studies — DevSecOps, distributed systems, mesh networks, and more.",
     },
   },
   experience: {
     title: "Experience",
-    description: "Professional journey and career timeline.",
+    description: "Professional journey and internships in DevOps and cybersecurity.",
     metadata: {
       title: "Experience",
       description:

@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 
 import PageContainer from "@/components/common/page-container";
 import ProjectCard from "@/components/projects/project-card";
@@ -52,6 +53,13 @@ export default function ProjectsPage() {
       title={pagesConfig.projects.title}
       description={pagesConfig.projects.description}
     >
+      <div className="mb-8 rounded-lg border border-border bg-muted/50 p-4 text-sm text-muted-foreground">
+        Looking for client-facing website demos? See{" "}
+        <Link href="/services" className="font-medium text-foreground underline-offset-4 hover:underline">
+          My Services
+        </Link>{" "}
+        for live barber, restaurant, and shop examples.
+      </div>
       <ResponsiveTabs items={tabItems} defaultValue="all" />
     </PageContainer>
   );
