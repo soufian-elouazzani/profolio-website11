@@ -27,7 +27,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Services",
       description:
-        "Soufian Elouazzani's web development and digital solutions services — live demos for barber, restaurant, shop, and AI receptionist.",
+        "Soufian Elouazzani's web development and digital solutions services — live demos for salon, fitness, therapy,  and e-commerce websites.",
     },
   },
   skills: {

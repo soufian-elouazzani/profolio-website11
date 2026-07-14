@@ -64,13 +64,43 @@ export const services: ServiceItem[] = [
     tags: ["Restaurant", "Menu", "Reservations"],
   },
   {
+    id: "salone-demo",
+    category: "simple-websites",
+    title: "Salone Website Demo",
+    description:
+      "A clean salon website focused on trust and conversion: services, pricing, gallery, and a clear booking path designed for mobile users.",
+    demoUrl: "https://salone.soufian.engineer/",
+    status: "live",
+    tags: ["Salon", "Booking", "Showcase", "Mobile-first"],
+  },
+  {
+    id: "fit-demo",
+    category: "simple-websites",
+    title: "Fit Website Demo",
+    description:
+      "A modern fitness website for coaches or gyms, with clear programs, pricing, and call-to-action sections that help convert visitors into members.",
+    demoUrl: "https://fit.soufian.engineer/",
+    status: "live",
+    tags: ["Fitness", "Gym", "Coaching"],
+  },
+  {
+    id: "terapia-demo",
+    category: "simple-websites",
+    title: "Terapia Website Demo",
+    description:
+      "A calm and professional therapy website with service presentation, practitioner profile, and contact-focused flow for first-time visitors.",
+    demoUrl: "https://terapia.soufian.engineer/",
+    status: "live",
+    tags: ["Therapy", "Healthcare", "Consultation"],
+  },
+  {
     id: "shop-demo",
     category: "complex-websites",
     title: "Online Shop",
     description:
       "A full e-commerce experience with product catalog, cart, and checkout flow. Designed for shops that need more than a brochure site — inventory-minded UX and room to grow.",
-    demoUrl: "https://shop.soufian.engineer",
-    status: "coming-soon",
+    demoUrl: "https://shop.soufian.engineer/",
+    status: "live",
     tags: ["E-commerce", "Shop", "Payments"],
   },
   {
