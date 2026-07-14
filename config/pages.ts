@@ -17,17 +17,17 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Soufian Elouazzani — freelance web developer and digital solutions consultant.",
+      description: "Soufian Elouazzani — software engineer and digital solutions consultant.",
     },
   },
   services: {
-    title: "My Services",
+    title: "Engineering Services",
     description:
-      "Websites and digital solutions for salons, restaurants, shops, and small businesses — from simple brochure sites to e-commerce and AI automation.",
+      "Websites, e-commerce, business software, AI solutions, automation, cloud, and DevOps services for growing businesses.",
     metadata: {
-      title: "Services",
+      title: "Engineering Services",
       description:
-        "Soufian Elouazzani's web development and digital solutions services — live demos for salon, fitness, therapy,  and e-commerce websites.",
+        "Soufian Elouazzani's engineering services — business websites, e-commerce, booking systems, AI assistants, automation, cloud, and DevOps.",
     },
   },
   skills: {

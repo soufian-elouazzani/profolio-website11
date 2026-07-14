@@ -39,7 +39,7 @@ export default function IndexPage() {
     name: siteConfig.authorName,
     url: siteConfig.url,
     image: siteConfig.ogImage,
-    jobTitle: "Freelance Web Developer & Digital Solutions Consultant",
+    jobTitle: "Software Engineer & Digital Solutions Consultant",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
@@ -81,25 +81,25 @@ export default function IndexPage() {
                 delay={0.2}
                 className="font-heading text-lg font-medium text-primary sm:text-xl"
               >
-                Freelance Web Developer & Digital Solutions Consultant
+                Software Engineer & Digital Solutions Consultant
               </AnimatedText>
               <AnimatedText
                 as="p"
                 delay={0.3}
                 className="text-base leading-relaxed text-muted-foreground sm:text-lg"
               >
-                I build business websites, online shops, and AI-powered tools for
-                salons, restaurants, and small businesses — fast, mobile-first,
-                and ready to win customers.
+                I build business solutions for clients: websites, e-commerce,
+                booking systems, dashboards, AI assistants, automation, and
+                cloud-ready deployments — practical, fast, and built to scale.
               </AnimatedText>
               <AnimatedText
                 as="p"
                 delay={0.35}
                 className="text-sm leading-relaxed text-muted-foreground/80"
               >
-                Behind the scenes: full-stack engineering, DevOps, and internships
-                at BASSETTI and Sinteg — so your project is built to last, not
-                just look good.
+                I work as an engineer first, bringing consulting, architecture,
+                and delivery together so the solution fits the business instead
+                of forcing the business to fit the tool.
               </AnimatedText>
 
               <div className="mt-2 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start">
@@ -161,7 +161,7 @@ export default function IndexPage() {
             {pagesConfig.services.description}
           </AnimatedText>
         </div>
-        <ServiceSection />
+        <ServiceSection previewMode />
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/services">
             <Button variant="outline" className="rounded-xl">

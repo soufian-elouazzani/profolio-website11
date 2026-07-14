@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Soufian Elouazzani — Freelance Web Developer & Digital Solutions Consultant",
+  name: "Soufian Elouazzani — Software Engineer & Digital Solutions Consultant",
   authorName: "Soufian Elouazzani",
   username: "soufian-elouazzani",
   description:
-    "Soufian Elouazzani — freelance web developer and digital solutions consultant. I build business websites, e-commerce stores, and AI-powered tools for salons, restaurants, shops, and small businesses. Explore live demos and engineering projects.",
+    "Soufian Elouazzani — software engineer and digital solutions consultant. I build business websites, e-commerce solutions, booking systems, dashboards, AI assistants, automation, and cloud/DevOps setups for small businesses.",
   url: "https://soufian.engineer",
   links: {
     twitter: "https://x.com/soufian-elouazzani",
@@ -14,8 +14,8 @@ export const siteConfig = {
   logoIcon: "/logo.png",
   keywords: [
     "Soufian Elouazzani",
-    "Freelance Web Developer",
-    "Website Consultant",
+    "Software Engineer",
+    "Digital Solutions Consultant",
     "Digital Solutions",
     "Business Website",
     "E-commerce Developer",
